@@ -2,6 +2,11 @@
     font-family: "Inter", sans-serif;
 }
 
+.custom-grid {
+    display: grid;
+    grid-template-columns: repeat(25, minmax(0, 1fr));
+}
+
 .palette {
     position: relative;
     transition: background-color 0.3s ease;

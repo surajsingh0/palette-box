@@ -1,0 +1,30 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.palette {
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.palette span {
+    transition: all 0.3s ease;
+    position: absolute;
+    font-weight: bold;
+}
+
+.palette-copied span {
+    animation: fadeInOut 2s;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
